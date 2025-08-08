@@ -1,0 +1,71 @@
+/* Register.module.css */
+
+.container {
+  background-color: #fff9f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #c0392b;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #c0392b;
+  font-size: 1.8rem;
+}
+
+.input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 0.75rem;
+  background-color: #c0392b;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginText {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #555;
+}
+
+.loginLink {
+  color: #d35400;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,13 +1,12 @@
-# client/Dockerfile
-FROM node:20-alpine
+FROM node:20
 
-WORKDIR /app
+WORKDIR /app/client
 
-COPY package*.json ./
+COPY ./package*.json ./
 RUN npm install
 
-COPY . .
+COPY ./client .
 
 EXPOSE 5173
 
-CMD ["npm", "run", "dev", "--", "--host"]
+CMD ["npm", "run", "dev"]
